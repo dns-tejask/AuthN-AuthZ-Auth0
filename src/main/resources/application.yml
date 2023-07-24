@@ -13,8 +13,8 @@ spring:
       client:
         registration:
           auth0:
-            client-id: VsZGKIOQpfm8DMZYqY6xJ1V72DbYAOMR
-            client-secret: nOjITf57jgZZ813yUBEzHDMUqbJTWp9lrl93Kxdzaz8it9tZjWdBrLnozelRg1Wb
+            client-id: {INSERT ID}
+            client-secret: {INSERT SECRET}
             scope:
               - openid
               - profile
@@ -22,4 +22,4 @@ spring:
         provider:
           auth0:
             # trailing slash is important!
-            issuer-uri: https://dev-20uogt8xj6t33b14.us.auth0.com/
+            issuer-uri: {INSERT URI}
